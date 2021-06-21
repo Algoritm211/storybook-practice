@@ -1,0 +1,15 @@
+
+.input {
+  border: 1px solid #008cba;
+  padding: 10px 5px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.large {
+  width: 250px;
+}
+
+.small {
+  width: 100px;
+}
