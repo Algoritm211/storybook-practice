@@ -24,7 +24,7 @@ Primary.args = {
 export const Success = Template.bind({})
 Success.args = {
   variant: 'success',
-  onClick: () => console.log(`Storybook author is ${process.env.STORYBOOK_AUTHOR}`)
+  onClick: () => console.log(`Storybook author is ${process.env.STORYBOOK_AUTHOR || 'Alexey Horbunov'}`)
 }
 
 export const Error = Template.bind({})
